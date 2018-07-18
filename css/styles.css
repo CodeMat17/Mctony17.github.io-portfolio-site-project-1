@@ -1,0 +1,202 @@
+body * {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+body p {
+	font-size: 0.8rem;
+	line-height: 1.15;
+	word-wrap: break-word;
+}
+
+body h1 {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-weight: 100;
+	margin-bottom: 0;
+}
+
+body h2 {
+	font-size: 1rem;
+	padding: 0;
+	margin: 0;
+}
+
+body h3 {
+	font-size: 1rem;
+	font-weight: 200;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+body img {
+	max-width: 100%;
+	height: auto;
+}
+
+body a {
+	text-decoration: none;
+	color: #333;
+	transition: all 0.3s ease;
+}
+
+body a:hover {
+	color: #7fc1db;
+	transform: scale(1.05);
+}
+
+.header {
+	border-bottom: 3px solid #333;
+}
+
+.head {
+	padding: 1rem 0 0 0;
+	overflow: hidden;
+}
+
+.head:after{
+	  content: "";
+	  display: table;
+	  clear: both;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+}
+
+.head-logo {
+	float: left;
+	width: 50%;
+}
+
+.img-logo {
+	max-width: 85px;
+	padding: 2.43rem 0 1rem 1rem;
+}
+
+.head-name {
+	width: 50%;
+	float: right;
+	text-align: right;
+	padding-bottom: 1rem;
+}
+
+.img-container {
+	position: relative;
+
+}
+
+.stories {
+	padding-left: 1rem;
+	padding-top: 1rem;
+	color: #7fc1db;
+}
+
+.project-story {
+	width: 100%;
+	float: left;
+	padding: 1rem;
+	text-align: center;
+}
+
+.project-story p {
+	margin: 0.5rem;
+
+}
+
+
+footer {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	border-top: 2px solid #333;
+	padding: 1rem 0;
+}
+
+
+@media (min-width: 555px) {
+	body h1 {
+		font-size: 2.75rem;
+		text-transform: uppercase;
+		font-weight: 100;
+		margin-bottom: 0;
+	}
+
+	body h3 {
+		font-size: 1.75rem;
+	}
+
+	.project-story {
+		max-width: 50%;
+	}
+
+	.box {
+		justify-content: center;
+	}
+}
+
+@media (min-width: 556px) {
+	
+	.head {
+		padding: 2rem 7rem;
+	}
+
+	.head-name {
+		padding-bottom: 0;
+	}
+
+	.head-logo {
+		padding-bottom: 0;
+	}
+
+	.image1, .image2{
+		max-width: 33.3%;
+	}
+
+	.box {
+		max-width: 50%;
+	}
+
+	body h1 {
+		font-size: 4rem;
+	}
+
+	body h2 {
+		font-size: 1.68rem;
+	}
+
+	body h3 {
+		font-size: 2rem;
+	}
+
+	body p {
+		font-size: 1.125rem;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.image1, .image2, .box{
+		max-width: 33.3%;
+	}
+}
+@media screen and (min-width: 900px) {
+	.container {
+		width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+
+
+
+
